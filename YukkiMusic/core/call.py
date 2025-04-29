@@ -20,9 +20,9 @@ from pytgcalls.types import (
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from Yukki import LOGGER, YouTube, app
-from Yukki.misc import db
-from Yukki.utils.database import (
+from YukkiMusic import LOGGER, YouTube, app
+from YukkiMusic.misc import db
+from YukkiMusic.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -34,11 +34,11 @@ from Yukki.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from Yukki.utils.exceptions import AssistantErr
-from Yukki.utils.formatters import check_duration, seconds_to_min, speed_converter
-from Yukki.utils.inline.play import stream_markup
-from Yukki.utils.stream.autoclear import auto_clean
-from Yukki.utils.thumbnails import get_thumb
+from YukkiMusic.utils.exceptions import AssistantErr
+from YukkiMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
+from YukkiMusic.utils.inline.play import stream_markup
+from YukkiMusic.utils.stream.autoclear import auto_clean
+from YukkiMusic.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}
